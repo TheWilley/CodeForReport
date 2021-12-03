@@ -1,0 +1,7 @@
+textarea {
+    white-space: pre;
+    overflow-wrap: normal;
+    overflow-x: scroll;
+    min-width: 100%;
+    height: inherit;
+  }
