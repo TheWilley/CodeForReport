@@ -46,7 +46,7 @@ function copy() {
         textarea.value = newtext;
     }
 
-    // Select the textarea and copy it's content
+    // Select the textarea and copy it's content #
     textarea.select();
     document.execCommand("copy");
 

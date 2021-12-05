@@ -2,6 +2,10 @@
 <html>
 
 <head>
+    <title>CodeForReport</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -9,13 +13,13 @@
 </head>
 
 <body>
-    <textarea id="input" onkeyup="textAreaAdjust(this)" onpaste="auto_copy_text()"></textarea>
+    <textarea id="input" onkeyup="textAreaAdjust(this)" onpaste="auto_copy_text()" placeholder="Write your text here..."></textarea>
 
     <div>
         <fieldset>
-            <legend> Settings </legend>
+        <legend> Settings </legend>
         <label>Remove Indent?: </label>
-        <input id="no_indent" type="checkbox" value="Remove indent?" checked="true">
+        <input id="no_indent" type="checkbox" value="Remove indent?" checked="true" >
         <br>
         <label>Auto copy when pasting text?: </label>
         <input id="auto_copy_text" type="checkbox" value="Remove indent?" checked="true">
